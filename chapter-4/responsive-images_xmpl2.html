@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Images - 2nd Example</title>
+    </head>
+    <body>
+        <h1>Responsive Images</h1>
+        <h2>Using <code>&lt;picture&gt;</code>&#44; <code>&lt;source&gt;</code>&#44; <code>srcset</code>&#44; <code>media</code> and <code>&lt;img&gt;</code> as Fallback</h2>
+        <picture>
+            <source srcset="images/bluebells-480w.jpg" media="(max-width: 480px)" />
+            <source srcset="images/bluebells-800w.jpg" media="(max-width: 800px)" />
+            <img src="images/bluebells-1024w.jpg" alt="Image of Bluebells" />
+        </picture>
+    </body>
+</html>
