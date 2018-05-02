@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab #5 - Challenge</title>
+    </head>
+    <style>
+        table {
+            width: 100%;
+        }
+        table,tr, td, th {
+            border: 1px solid #123014;
+            border-collapse: collapse;
+        }
+        th, .gall-ftr {
+            background-color: aquamarine;
+        }
+        caption {
+            font-weight: 700;
+            color: darkblue;
+            padding-bottom: 5px;
+        }
+        img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+        }
+        .img-ctr {
+            background-color: black
+        }
+        .first-col-ctr, .img-ctr, td p {
+            text-align: center;
+        }
+        .in-view {
+            background-color: aquamarine;
+            color:cadetblue;
+        }
+        .gall-ftr {
+            line-height: 3px;
+        }
+    </style>
+    <body>
+        <h1>Picture Table</h1>
+        <table>
+            <caption>My Gallery</caption>
+            <tr>
+                <th width="70">&#35;</th><th>Friendly Dog in Bedford Park</th>
+            </tr>
+            <tr>
+                <td class="first-col-ctr"><a href="lab_5_gallery1.html">1</a></td><td rowspan="8" class="img-ctr"><img src="../chapter-4/images/dog.jpg" alt="image of dog" /></td>
+            </tr>
+            <tr>
+                <td class="first-col-ctr"><a href="lab_5_gallery2.html">2</a></td>
+            </tr>
+            <tr>
+                <td class="first-col-ctr"><a href="lab_5_gallery3.html">3</a></td>
+            </tr>
+            <tr>
+                <td class="first-col-ctr"><a href="lab_5_gallery4.html">4</a></td>
+            </tr>
+            <tr>
+                <td class="first-col-ctr in-view">5</td>
+            </tr>
+            <tr>
+                <td class="first-col-ctr"><a href="lab_5_gallery6.html">6</a></td>
+            </tr>
+            <tr>
+                <td class="first-col-ctr"><a href="lab_5_gallery7.html">7</a></td>
+            </tr>
+            <tr>
+                <td class="first-col-ctr"><a href="lab_5_gallery8.html">8</a></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="gall-ftr"><p><small>Images courtesy of Quaverlove</small></p></td>
+            </tr>
+        </table>
+    </body>
+</html>
